@@ -13,6 +13,4 @@ echo"school file is not empty"
 fi
 if [ -f "$filename"]; then
 echo "school file is a regular file"
-else
-echo"nothing"
 fi
