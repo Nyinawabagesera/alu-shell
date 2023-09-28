@@ -4,7 +4,7 @@ i="Best School"
 u=1
 while [ $u -le 10 ]
 do
-	if [ $u -eq 9 ] 
+	if [ $u -eq 10 ] 
 	then
 		echo "Hi"
 	else
