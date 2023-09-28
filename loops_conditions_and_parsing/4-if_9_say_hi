@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 #comment
-i=1
-while [ $i -le 10 ]
+i="Best School"
+u=1
+while [ $u -le 10 ]
 do
-if [ $i -eq 9 ]
-then
-echo "Best school\nHi"
-((i++))
+	if [ $u -eq 9 ] 
+	then
+		echo "Hi"
+	else
+		echo "$i"
+	fi
+	((u++))
 done
-
