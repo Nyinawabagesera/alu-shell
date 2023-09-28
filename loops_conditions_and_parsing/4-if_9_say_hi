@@ -6,5 +6,6 @@ do
 if [ $i -eq 9 ]
 then
 echo "Best school\nHi"
+((i++))
 done
 
