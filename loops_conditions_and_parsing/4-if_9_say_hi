@@ -2,7 +2,7 @@
 #comment
 i="Best School"
 u=1
-while [ $u -le 10 ]
+while [ $u -le 11 ]
 do
 	if [ $u -eq 10 ] 
 	then
