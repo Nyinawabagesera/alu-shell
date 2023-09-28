@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#comment
+i="Best school"
+u="bad luck"
+z="good luck"
+x=1
+while [ $x -le 10 ]
+do
+	if [ $x -eq 4 ]
+	then
+		echo "$u"
+	elif [ $x -eq 8 ]
+	then
+		echo "$z"
+	else
+		echo "$i"
+	fi
+	((x++))
+done
