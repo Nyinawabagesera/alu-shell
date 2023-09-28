@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#comment
+i=0
+while [ $i -le 12 ]
+do
+	echo "Hour: $i"
+        ((i++))
+	u=1
+while [ $u -le 59 ]
+do
+        echo "$u"
+        ((u++))
+done
+done
