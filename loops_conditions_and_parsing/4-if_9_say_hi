@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#comment
+i=0
+while [ $i -lt 10 ]
+do
+if [ $i -eq 9 ]
+then
+echo "Best school'
+echo "Hi"
+done
