@@ -8,6 +8,6 @@ then
 continue
 fi
 
-name_part=$(echo "$item" | cut -d '_' -f 2-)
+name_part=$(echo "$item" | cut -d '-' -f2-)
 echo "$name_part"
 done
