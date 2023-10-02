@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-#comment(pgrep <bash>)
+#comment
+(pgrep <bash>)
